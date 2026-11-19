@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tutorial de Desarrollo de Aplicaciones Móviles</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <img src="logo.png" width="50" height="50">
+<header class="topbar">
+  <button class="icon-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
+  <a class="brand" href="index.html">📱 Tutorial <span>Desarrollo Móvil</span></a>
+  <button class="icon-btn" id="themeBtn" aria-label="Cambiar tema">🌓</button>
+</header>
+<div class="layout">
+  <nav class="sidebar" id="sidebar">
+    <h3>Temas</h3>
+    <a class="active" href="index.html">🏠 Inicio</a>
+    <a href="pages/01-control-versiones.html">1. Control de versiones</a><a href="pages/02-persistencia-datos.html">2. Persistencia y acceso a datos</a><a href="pages/03-sensores.html">3. Gestión de sensores</a><a href="pages/04-multimedia.html">4. Recursos multimedia</a><a href="pages/05-servicios-notificaciones.html">5. Servicios y notificaciones</a><a href="pages/06-librerias-toolkits.html">6. Librerías y toolkits</a><a href="pages/07-depuracion-seguridad.html">7. Depuración y seguridad</a><a href="pages/08-referencias.html">Referencias</a>
+  </nav>
+  <main class="content">
+    <section class="hero">
+      <h1>Tutorial de Desarrollo de Aplicaciones Móviles</h1>
+      <p>Siete temas esenciales explicados paso a paso, con ejemplos de código, enlaces a documentación oficial y videos de YouTube.</p>
+    </section>
+    <input id="search" type="search" placeholder="🔍 Buscar tema..." style="width:100%;padding:12px 16px;border-radius:10px;border:1px solid var(--border);background:var(--surface);color:var(--text);font-size:1rem;margin-bottom:18px">
+    <div class="grid"><a class="card topic-card" href="pages/01-control-versiones.html"><div class="num">01</div><h3>Control de versiones</h3><p>Local, centralizado y distribuido. Git, ramas, commits y ejemplos.</p></a><a class="card topic-card" href="pages/02-persistencia-datos.html"><div class="num">02</div><h3>Persistencia y acceso a datos</h3><p>Archivos, SQLite, Room (ORM), servicios web y autenticación.</p></a><a class="card topic-card" href="pages/03-sensores.html"><div class="num">03</div><h3>Gestión de sensores</h3><p>Tipos de sensores, habilitación, lectura y procesamiento.</p></a><a class="card topic-card" href="pages/04-multimedia.html"><div class="num">04</div><h3>Recursos multimedia</h3><p>Imágenes, audio, video, animaciones y estructura del proyecto.</p></a><a class="card topic-card" href="pages/05-servicios-notificaciones.html"><div class="num">05</div><h3>Servicios y notificaciones</h3><p>Segundo plano, WorkManager, notificaciones, proveedores y nube.</p></a><a class="card topic-card" href="pages/06-librerias-toolkits.html"><div class="num">06</div><h3>Librerías y toolkits</h3><p>Qué son, librerías especializadas y toolkits (Flutter, RN, nativo).</p></a><a class="card topic-card" href="pages/07-depuracion-seguridad.html"><div class="num">07</div><h3>Depuración y seguridad</h3><p>Logcat, debugger, profiler y buenas prácticas de seguridad.</p></a></div>
+    <div class="note" style="margin-top:28px"><strong>Cómo usar este sitio:</strong> elige un tema, lee la explicación, copia los ejemplos con el botón <em>Copiar</em>, practica en Android Studio y refuerza con los enlaces y videos al final de cada página. Puedes cambiar a modo oscuro con el botón 🌓.</div>
+  </main>
+</div>
+<footer>Actividad 12/11/2026 · Tutorial de desarrollo de aplicaciones móviles</footer>
+<button id="toTop" aria-label="Volver arriba">↑</button>
+<script src="js/main.js"></script>
+</body>
+</html>
